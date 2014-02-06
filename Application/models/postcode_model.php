@@ -57,7 +57,7 @@ public function createTable($tableName){
     
     //create the postcode table, I discard most the data in the Code Point files as I don't need it, if you do just add the coloms here and update the loadData function in the main lib file
       $this->db->query('   CREATE TABLE `' . $tableName . '` ( 
-                `Postcode` text,
+                `Postcode` varchar(12),
                 `Eastings` int(11) DEFAULT NULL,
                 `Northings` int(11) DEFAULT NULL,
                 `Lat` decimal(18,12) DEFAULT NULL,
