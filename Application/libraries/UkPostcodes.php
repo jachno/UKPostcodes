@@ -35,7 +35,7 @@ class UkPostcodes
     
     // Important: without changing the global timeout of 300 this will fail trying to process all of the data
     
-    var $postcodefiles = '/Users/JamieNorman/Downloads/CSV'; //Location of the downloaded postcode CSV files; 		
+    var $postcodefiles = '/Users/Downloads/CSV'; //Location of the downloaded postcode CSV files; 		
     var $postcode_table = 'postcodes'; //TableName
     var $tableOverwrite = TRUE; // Set to true to reimport data, this is drop and recreate the table
     
